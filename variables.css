@@ -1,0 +1,35 @@
+:root {
+    --background-color: #f5f5f5;
+    --primary-text-color: #000000;
+    --second-text-color: #6b7280;
+    --border-button-color: #4e4e4e;
+    --font-h1-big: 69px;
+    --font-h1-medium: 57px;
+    --font-h1-small: 45px;
+    --font-h2: 45px;
+    --font-h3: 30px;
+    --font-header: 25px;
+    --font-small-big: 20px;
+    --font-small-small: 15px;
+    --font-footer-disclamer: 13px;
+
+    --spacing-between-section-big: 164px;
+    --spacing-between-section-medium: 143px;
+    --spacing-between-section-small: 122px;
+    --spacing-in-section-big: 64px;
+    --spacing-in-section-medium: 90px;
+    --spacing-in-section-small: 96px;
+    --spacing-between-zag-and-cont-big: 32px;
+    --spacing-between-zag-and-cont-medium: 28px;
+    --spacing-between-zag-and-cont-small: 24px;
+    --spacing-between-cards-big: 60px;
+    --spacing-between-cards-medium: 47px;
+    --spacing-between-cards-small: 34px;
+    --spacing-between-text-elements-big: 56px;
+    --spacing-between-text-elements-medium: 40px;
+    --spacing-between-text-elements-small: 24px;
+
+
+    --transition: 0.3s ease
+
+}
