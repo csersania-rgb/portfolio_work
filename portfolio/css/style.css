@@ -407,7 +407,7 @@ body {
 
 .form-group label {
     font-size: 14px;
-    color: var(--primary-text-color);
+    color: var(--second-text-color);
 }
 
 .contact__form input,
