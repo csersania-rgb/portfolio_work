@@ -111,7 +111,7 @@ body {
 }
 
 .projects__header {
-    border-bottom: 3px solid var(--primary-text-color);
+    border-bottom: 2px solid var(--primary-text-color);
     margin-bottom: var(--spacing-between-zag-and-cont-big);
 }
 
@@ -161,7 +161,7 @@ body {
 }
 
 .section-header {
-    border-bottom: 3px solid var(--primary-text-color);
+    border-bottom: 2px solid var(--primary-text-color);
     margin-bottom: var(--spacing-between-zag-and-cont-big);
     padding-bottom: var(--spacing-between-zag-and-cont-small);
 }
