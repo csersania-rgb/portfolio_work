@@ -80,6 +80,11 @@ body {
     text-underline-offset: 8px;
 }
 
+.hero__link:hover {
+    color: var(--second-text-color);
+    transition: var(--transition);
+}
+
 .hero__image-wrapper {
     position: absolute;
     top: 50%;
@@ -111,7 +116,7 @@ body {
 }
 
 .projects__header {
-    border-bottom: 3px solid var(--primary-text-color);
+    border-bottom: 2px solid var(--primary-text-color);
     margin-bottom: var(--spacing-between-zag-and-cont-big);
 }
 
@@ -161,7 +166,7 @@ body {
 }
 
 .section-header {
-    border-bottom: 3px solid var(--primary-text-color);
+    border-bottom: 2px solid var(--primary-text-color);
     margin-bottom: var(--spacing-between-zag-and-cont-big);
     padding-bottom: var(--spacing-between-zag-and-cont-small);
 }
@@ -200,6 +205,11 @@ body {
     text-decoration: underline;
     text-underline-offset: 4px;
     font-size: var(--font-header);
+}
+
+.content-creation__link:hover {
+    color: var(--second-text-color);
+    transition: var(--transition);
 }
 
 .content-creation__media img {
@@ -314,6 +324,11 @@ body {
     flex-shrink: 0;
 }
 
+.slider-btn:hover {
+    background-color: #282828;
+    transition: var(--transition);
+}
+
 .testimonials__content {
     text-align: center;
     max-width: 600px;
@@ -365,6 +380,10 @@ body {
     color: var(--primary-text-color);
     text-decoration: underline;
     text-underline-offset: 4px;
+}
+.contact__email:hover {
+    color: var(--second-text-color);
+    transition: var(--transition);
 }
 
 .contact__form {
@@ -425,6 +444,12 @@ body {
     cursor: pointer;
 }
 
+.submit-btn:hover {
+    background-color: var(--primary-text-color);
+    color: var(--background-color);
+    transition: var(--transition);
+}
+
 .recent-blogs {
     padding-top: 65px;
     padding-bottom: var(--spacing-between-section-big);
@@ -473,6 +498,11 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 4px;
+}
+
+.blog-link:hover {
+    color: var(--second-text-color);
+    transition: var(--transition);
 }
 
 .newsletter {
@@ -558,6 +588,11 @@ body {
 .newsletter__disclaimer a {
     color: var(--second-text-color);
     text-decoration: none;
+}
+
+.newsletter__disclaimer a:hover {
+    color: var(--primary-text-color);
+    transition: var(--transition);
 }
 
 .footer {
